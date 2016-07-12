@@ -38,8 +38,6 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Fiches</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
                     </li>
                 </ul>
             </div>
@@ -133,26 +131,6 @@
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>A propos</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Trouver toutes les fiches grâce à ce mini-annuaire.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Il suffit de sélectionner la catégorie et de valider !</p>
                 </div>
             </div>
         </div>
