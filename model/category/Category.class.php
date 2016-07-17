@@ -1,9 +1,14 @@
 <?php
 
-class File {
+/**
+ * Description of Category
+ *
+ * @author mika
+ */
+class Category {
 
     private $id;
-    private $title;
+    private $name;
     private $description;
 
     public function __construct(array $data) {
@@ -23,8 +28,8 @@ class File {
         return $this->id;
     }
 
-    public function getTitle() {
-        return $this->title;
+    public function getName() {
+        return $this->name;
     }
 
     public function getDescription() {
@@ -37,9 +42,9 @@ class File {
         }
     }
 
-    public function setTitle($title) {
-        if (strlen($title) <= 32 && is_string($title)) {
-            $this->title = $title;
+    public function setName($name) {
+        if (strlen($name) <= 32 && is_string($name)) {
+            $this->name = $name;
         }
     }
 
